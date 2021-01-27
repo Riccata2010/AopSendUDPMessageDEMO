@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="org.mio.demo.aop.SenderAspectUDP"></aspect>
+        <weaver options="-showWeaveInfo">
+            <include within="org.mio.demo.aop.*" />
+        </weaver>
+    </aspects>
+</aspectj>
